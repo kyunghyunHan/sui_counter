@@ -1,4 +1,4 @@
-module sui_counter::suicounter {
+module counter_app::counter {
     use sui::object::{Self, UID};
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};
